@@ -1,0 +1,178 @@
+
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+
+
+body{
+    background: black;
+}
+
+/*Logo*/
+
+.Logo{
+
+
+    position: relative;
+    margin-top: 100px;
+    margin-left: 450px;
+
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+/*Design autor text*/
+
+a{
+
+
+    position: relative;
+    margin-left: 450px;
+
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+/*Flex box for the containers*/
+
+#flex-container{
+    margin-inline: auto;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+/*Container style*/
+
+#flex-container > div{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 24px;
+    gap: 16px;
+    width: 368px;
+    height: fit-content;
+    background: #262626;
+    border-radius: 16px;
+
+}
+
+/*Container Title*/
+
+.title{
+
+
+    margin-top: -10px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+/*Tasks style*/
+
+.container > div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    border-radius: 8px;
+
+
+}
+
+.Tablet_view{
+    background-color: #D93535;
+
+}
+
+.Tablet_view > h2{
+    text-align: start;
+    margin: 0;
+}
+
+/*Task color*/
+
+.pink{
+    background-color: #C440A1;
+}
+
+.purple{
+    background-color: #6A6DCD;
+}
+
+.red{
+    background-color: #D93535;
+}
+
+.blue{
+    background-color: #307FE2;
+}
+
+.green{
+    background-color: #00A88B;
+}
+
+/*Container tasks title and text*/
+
+.Task-title{
+    margin-top: -3px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.Task-text{
+    margin-top: -5px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/*Taks label*/
+
+.Label{
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    height: 15px;
+    padding: 5px;
+    width: fit-content;
+    text-align: center;
+}
+
+
+p{
+    margin: 0;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+
