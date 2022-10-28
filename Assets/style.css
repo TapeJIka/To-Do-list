@@ -4,16 +4,24 @@
 
 body{
     background: black;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Logo*/
 
+.Logo-container{
+
+    justify-content: start;
+    width: 70%;
+    margin-inline: auto ;
+    padding: 20px ;
+
+}
 .Logo{
 
-
     position: relative;
-    margin-top: 100px;
-    margin-left: 450px;
 
     font-family: 'SF Pro Display', sans-serif;
     font-style: normal;
@@ -28,10 +36,6 @@ body{
 /*Design autor text*/
 
 a{
-
-
-    position: relative;
-    margin-left: 450px;
 
     font-family: 'SF Pro Text', sans-serif;
     font-style: normal;
@@ -49,7 +53,7 @@ a{
 #flex-container{
     margin-inline: auto;
     background-color: transparent;
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
